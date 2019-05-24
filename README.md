@@ -11,5 +11,8 @@ Compile: >> g++ -o <filename> -I<path_to_NR_folder> gnlsys.cpp
 
 Run: >> ./gnlsys <path_to_folder_containing_gnl_files_related_to_one_single_data_system> 
 
+### Example
+./gnlsys canonicos/cjto1
+
 ### Output
 The output is an xml file containing the analysis results.
